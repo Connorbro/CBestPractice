@@ -6,11 +6,11 @@ namespace BestPracticeC
     {
         static void Main(string[] args)
         {
-            SayHi("Connor");
-            
-            Console.ReadLine();
+            HelloUser("Connor");
+
+           
         }
-        static void SayHi(string name)
+        static void HelloUser(string name)
         {
             Console.WriteLine($"Hello {name}");
         }
