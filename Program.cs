@@ -6,12 +6,13 @@ namespace BestPracticeC
     {
         static void Main(string[] args)
         {
+            WhatAgeShouldYouBe(12);
 
 
         }
-        static void WhatAgeShouldYouBe()
+        static void WhatAgeShouldYouBe(int age)
         {
-            var age = 18;
+            
             if(age >= 18)
             {
                 Console.WriteLine("Yes you can buy a beer");
