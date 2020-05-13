@@ -20,6 +20,6 @@ namespace BestPracticeC
         {
             int result = num * num * num;
             return result;
-        }
+         }
     }
 }
