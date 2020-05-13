@@ -6,21 +6,23 @@ namespace BestPracticeC
     {
         static void Main(string[] args)
         {
-            WhatAgeShouldYouBe(12);
+            Console.WriteLine(GetLargerNumber(31, 85));
 
 
         }
-        static void WhatAgeShouldYouBe(int age)
+        static int GetLargerNumber(int num1, int num2)
         {
-            
-            if(age >= 18)
+            int result;
+            if (num1 > num2)
             {
-                Console.WriteLine("Yes you can buy a beer");
+                result = num1;
             }
             else
             {
-                Console.WriteLine("No you're too young");
+                result = num2;
             }
+
+            return result;
         }
     }
 }
