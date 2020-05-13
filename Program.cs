@@ -6,12 +6,13 @@ namespace BestPracticeC
     {
         static void Main(string[] args)
         {
+            SayHi();
             
             Console.ReadLine();
         }
         static void SayHi()
         {
-
+            Console.WriteLine("Hello");
         }
     }
 }
