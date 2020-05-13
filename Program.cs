@@ -6,20 +6,20 @@ namespace BestPracticeC
     {
         static void Main(string[] args)
         {
-            HelloUser("Connor", 21);
-            HelloUser("Leonie", 26);
-            Console.WriteLine(cubedNumber(3));
 
-           
+
         }
-        static void HelloUser(string name, int age)
+        static void WhatAgeShouldYouBe()
         {
-            Console.WriteLine($"Hello {name} you are {age} years old");
+            var age = 18;
+            if(age >= 18)
+            {
+                Console.WriteLine("Yes you can buy a beer");
+            }
+            else
+            {
+                Console.WriteLine("No you're too young");
+            }
         }
-        static int cubedNumber(int num)
-        {
-            int result = num * num * num;
-            return result;
-         }
     }
 }
