@@ -8,7 +8,7 @@ namespace BestPracticeC
         {
             HelloUser("Connor", 21);
             HelloUser("Leonie", 26);
-            cubedNumber(3);
+            Console.WriteLine(cubedNumber(3));
 
            
         }
