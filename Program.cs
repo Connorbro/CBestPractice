@@ -6,9 +6,12 @@ namespace BestPracticeC
     {
         static void Main(string[] args)
         {
-            int[] lotteryNumbers = { 4, 8, 15, 16, 23, 42 };
-            Console.WriteLine(lotteryNumbers[1]);
+            
             Console.ReadLine();
+        }
+        static void SayHi()
+        {
+
         }
     }
 }
